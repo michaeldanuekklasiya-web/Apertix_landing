@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 
 // Menampilkan halaman 'index.blade.php' untuk route '/'
@@ -20,6 +21,8 @@ Route::get('/about', function () {
 Route::get('/products', function () {
     return view('products');
 });
+
+Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');
 
 Route::get('/contact', function () {
     return view('contact');

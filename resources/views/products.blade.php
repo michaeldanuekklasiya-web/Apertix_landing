@@ -54,7 +54,7 @@
 
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 
-                    <div class="col">
+                    <div class="col" data-aos="fade-right">
                         <div class="card shadow-sm">
                             <img src="img/1.png" alt="" style="object-fit: contain;">
 
@@ -65,7 +65,7 @@
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="col" data-aos="fade-up">
                         <div class="card shadow-sm">
                             <img src="img/2.png" alt="" style="object-fit: contain;">
 
@@ -77,7 +77,7 @@
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="col" data-aos="fade-left">
                         <div class="card shadow-sm">
                             <img src="img/3.png" alt="" style="object-fit: contain;">
 
@@ -88,7 +88,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="fade-right">
                         <div class="card shadow-sm">
                             <img src="img/4.png" alt="" style="object-fit: contain;">
 
@@ -99,7 +99,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="fade-up">
                         <div class="card shadow-sm">
                             <img src="img/5.png" alt="" style="object-fit: contain;">
 
@@ -110,7 +110,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="fade-left">
                         <div class="card shadow-sm">
                             <img src="img/6.png" alt="" style="object-fit: contain;">
 
@@ -121,7 +121,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="fade-right">
                         <div class="card shadow-sm">
                             <img src="img/7.png" alt="" style="object-fit: contain;">
 
@@ -132,7 +132,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="fade-up">
                         <div class="card shadow-sm">
                             <img src="img/8.png" alt="" style="object-fit: contain;">
 
@@ -143,7 +143,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="fade-left">
                         <div class="card shadow-sm">
                             <img src="img/9.png" alt="" style="object-fit: contain;">
 
