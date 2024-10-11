@@ -26,42 +26,13 @@
             crossorigin="anonymous">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
-
+        <link rel="shortcut icon" href="/img/Logo - 3.png" type="image/png">
 
     </head>
     <body>
-        <div class="container">
-            <header
-                class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-4 mb-4 border-bottom">
-                <a
-                    href="/"
-                    class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-                    <img src="img/LogoItem.png" alt="">
-                </a>
-
-                <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                    <li>
-                        <a href="#" class="nav-link px-2 link-dark">Home</a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link px-2 link-dark">About</a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link px-2 link-dark">Products</a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link px-2 link-dark">Contact</a>
-                    </li>
-                </ul>
-
-                <div class="col-md-3 text-end">
-                    <button
-                        type="button"
-                        class="btn btn-warning"
-                        style="border-radius: 25px; padding:10px; width:140px">Shop Now</button>
-                </div>
-            </header>
-        </div>
+        <header id="mainHeader">
+            @include('includes.header')
+        </header>
 
         {{-- Jumbotron --}}
         <section class="py-5 text-center vault-section">
@@ -78,7 +49,7 @@
 
                     <!-- Button -->
                     <p>
-                        <a href="#" class="btn btn-warning btn-lg my-2">Explore Now</a>
+                        <a href="#" class="btn btn-warning btn-lg py-2" style="width:200px">Explore Now</a>
                     </p>
                 </div>
             </div>
@@ -263,10 +234,6 @@
                         </div>
                         <a class="btn btn-lg" href="#" style="background-color: #8EC3A4; color: white; font-size: 0.9rem;">Shop Now</a> <!-- Reduced margin-left -->
                     </div>
-
-
-
-
                 </div>
             </div>
         </section>
@@ -372,98 +339,9 @@
             </div>
         </div>
 
-        <!-- Footer -->
-        <footer class="text-center text-lg-start bg-body-tertiary" style="background-color: #3A9D5E; padding: 40px 0; color: white;">
-
-            <!-- Section: Links -->
-            <section class="">
-                <div class="container text-center text-md-start mt-5">
-                    <!-- Grid row -->
-                    <div class="row mt-3">
-                        <!-- Grid column -->
-                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                            <!-- Content -->
-                            <h6 class="text-uppercase fw-bold mb-4">
-                                Company name
-                            </h6>
-                            <p style="color: white;">
-                                Here you can use rows and columns to organize your footer content. Lorem ipsum
-                                dolor sit amet, consectetur adipisicing elit.
-                            </p>
-                        </div>
-                        <!-- Grid column -->
-
-                        <!-- Grid column -->
-                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                            <!-- Links -->
-                            <h6 class="text-uppercase fw-bold mb-4">
-                                Products
-                            </h6>
-                            <p style="color: white;>
-                                <a href="#!" class="text-reset">Angular</a>
-                            </p>
-                            <p style="color: white;>
-                                <a href="#!" class="text-reset">React</a>
-                            </p>
-                            <p style="color: white;>
-                                <a href="#!" class="text-reset">Vue</a>
-                            </p>
-                            <p style="color: white;>
-                                <a href="#!" class="text-reset">Laravel</a>
-                            </p>
-                        </div>
-                        <!-- Grid column -->
-
-                        <!-- Grid column -->
-                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                            <!-- Links -->
-                            <h6 class="text-uppercase fw-bold mb-4">
-                                Products
-                            </h6>
-                            <p style="color: white;>
-                                <a href="#!" class="text-reset">Angular</a>
-                            </p>
-                            <p style="color: white;>
-                                <a href="#!" class="text-reset">React</a>
-                            </p>
-                            <p style="color: white;>
-                                <a href="#!" class="text-reset">Vue</a>
-                            </p>
-                            <p style="color: white;>
-                                <a href="#!" class="text-reset">Laravel</a>
-                            </p>
-                        </div>
-                        <!-- Grid column -->
-
-                        <!-- Grid column -->
-                    <!-- Grid column -->
-                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                        <!-- Links -->
-                        <h6 class="text-uppercase fw-bold mb-4">
-                            Products
-                        </h6>
-                        <p style="color: white;>
-                            <a href="#!" class="text-reset">Angular</a>
-                        </p>
-                        <p style="color: white;>
-                            <a href="#!" class="text-reset">React</a>
-                        </p>
-                        <p style="color: white;>
-                            <a href="#!" class="text-reset">Vue</a>
-                        </p>
-                        <p style="color: white;>
-                            <a href="#!" class="text-reset">Laravel</a>
-                        </p>
-                    </div>
-                        <!-- Grid column -->
-                    </div>
-                    <!-- Grid row -->
-                </div>
-            </section>
-            <!-- Section: Links -->
-        </footer>
-        <!-- Footer -->
-    </div>
+    <footer>
+        @include('includes.footer')
+    </footer>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

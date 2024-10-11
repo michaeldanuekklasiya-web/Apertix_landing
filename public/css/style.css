@@ -321,5 +321,58 @@ h2, h3 {
     margin-left: -50px; /* Space between text and button */
 }
 
+/* CONTACT PAGE */
+.form-group {
+    margin-bottom: 20px; /* Jarak antar grup form */
+}
 
+.form-control {
+    border: 1px solid #ced4da; /* Border untuk input */
+    border-radius: 5px; /* Sudut melengkung */
+    padding: 12px; /* Padding untuk input */
+    width: 100%; /* Lebar penuh */
+    box-shadow: none; /* Menghilangkan bayangan default */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Transisi untuk efek fokus */
+}
+
+.form-control:focus {
+    border-color: #3A9D5E; /* Warna border saat fokus */
+    box-shadow: 0 0 5px rgba(58, 157, 94, 0.5); /* Bayangan saat fokus */
+}
+
+textarea.form-control {
+    resize: vertical; /* Membolehkan resize vertikal */
+}
+
+.btn-primary {
+    background-color: #3A9D5E; /* Warna latar belakang tombol */
+    border: none; /* Menghilangkan border */
+    border-radius: 5px; /* Sudut melengkung */
+    padding: 12px 20px; /* Padding untuk tombol */
+    font-size: 16px; /* Ukuran font tombol */
+    color: white; /* Warna teks tombol */
+    transition: background-color 0.3s; /* Transisi untuk efek hover */
+}
+
+.btn-primary:hover {
+    background-color: #319d52; /* Warna latar belakang tombol saat hover */
+}
+
+.submitting {
+    display: none; /* Sembunyikan elemen ini secara default */
+}
+
+/* Pesan sukses dan peringatan */
+#form-message-warning, #form-message-success {
+    margin-top: 20px; /* Jarak atas untuk pesan */
+    font-weight: bold; /* Tebalkan font */
+}
+
+#form-message-success {
+    color: #28a745; /* Warna hijau untuk pesan sukses */
+}
+
+#form-message-warning {
+    color: #dc3545; /* Warna merah untuk pesan warning */
+}
 
