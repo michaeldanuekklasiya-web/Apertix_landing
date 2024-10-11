@@ -7,7 +7,19 @@
 ---
 
 <p align="center">
+  <b>Nama :</b> Jimly Assidiq Anwar &nbsp;&nbsp;|&nbsp;&nbsp; <b>NPM :</b> 4522210018 &nbsp;&nbsp;|&nbsp;&nbsp; <b>Universitas :</b> Pancasila
+</p>
+<p align="center">
   <b>Nama :</b> Michael Danu Ekklasiya &nbsp;&nbsp;|&nbsp;&nbsp; <b>NPM :</b> 4522210056 &nbsp;&nbsp;|&nbsp;&nbsp; <b>Universitas :</b> Pancasila
+</p>
+<p align="center">
+  <b>Nama :</b> Muhamad Farhan &nbsp;&nbsp;|&nbsp;&nbsp; <b>NPM :</b> 4522210057 &nbsp;&nbsp;|&nbsp;&nbsp; <b>Universitas :</b> Pancasila
+</p>
+<p align="center">
+  <b>Nama :</b> Muhammad Farhan Aprilianto &nbsp;&nbsp;|&nbsp;&nbsp; <b>NPM :</b> 4522210058 &nbsp;&nbsp;|&nbsp;&nbsp; <b>Universitas :</b> Pancasila
+</p>
+<p align="center">
+  <b>Nama :</b> Rizky Galih Dwiyanto &nbsp;&nbsp;|&nbsp;&nbsp; <b>NPM :</b> 4522210074 &nbsp;&nbsp;|&nbsp;&nbsp; <b>Universitas :</b> Pancasila
 </p>
 
 ## Description
