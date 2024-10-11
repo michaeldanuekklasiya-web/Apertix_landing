@@ -31,89 +31,80 @@
     </head>
     <body>
         <!-- Footer -->
-        <footer
-            class="text-center text-lg-start"
-            style="background-color: #3A9D5E; padding: 40px 0; color: white;">
-
-            <!-- Section: Links -->
-            <section class="">
-                <div class="container text-center text-md-start mt-5">
-                    <!-- Grid row -->
-                    <div class="row mt-3">
-                        <!-- Grid column -->
-                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                            <!-- Content -->
-                            <h6 class="text-uppercase fw-bold mb-4">Company name</h6>
-                            <p style="color: white;">
-                                Here you can use rows and columns to organize your footer content. Lorem ipsum
-                                dolor sit amet, consectetur adipisicing elit.
-                            </p>
-                        </div>
-                        <!-- Grid column -->
-
-                        <!-- Grid column -->
-                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                            <!-- Links -->
-                            <h6 class="text-uppercase fw-bold mb-4">Useful Links</h6>
-                            <p style="color: white;">
-                                <a href="#!" class="text-reset">Pricing</a>
-                            </p>
-                            <p style="color: white;">
-                                <a href="#!" class="text-reset">Settings</a>
-                            </p>
-                            <p style="color: white;">
-                                <a href="#!" class="text-reset">Orders</a>
-                            </p>
-                            <p style="color: white;">
-                                <a href="#!" class="text-reset">Help</a>
-                            </p>
-                        </div>
-                        <!-- Grid column -->
-
-                        <!-- Grid column -->
-                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                            <!-- Links -->
-                            <h6 class="text-uppercase fw-bold mb-4">Useful Links</h6>
-                            <p style="color: white;">
-                                <a href="#!" class="text-reset">Pricing</a>
-                            </p>
-                            <p style="color: white;">
-                                <a href="#!" class="text-reset">Settings</a>
-                            </p>
-                            <p style="color: white;">
-                                <a href="#!" class="text-reset">Orders</a>
-                            </p>
-                            <p style="color: white;">
-                                <a href="#!" class="text-reset">Help</a>
-                            </p>
-                        </div>
-                        <!-- Grid column -->
-
-                        <!-- Grid column -->
-                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                            <!-- Links -->
-                            <h6 class="text-uppercase fw-bold mb-4">Useful Links</h6>
-                            <p style="color: white;">
-                                <a href="#!" class="text-reset">Pricing</a>
-                            </p>
-                            <p style="color: white;">
-                                <a href="#!" class="text-reset">Settings</a>
-                            </p>
-                            <p style="color: white;">
-                                <a href="#!" class="text-reset">Orders</a>
-                            </p>
-                            <p style="color: white;">
-                                <a href="#!" class="text-reset">Help</a>
-                            </p>
-                        </div>
-                        <!-- Grid column -->
-                    </div>
-                    <!-- Grid row -->
+            <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top" style="background-color: #3A9D5E; color: white; padding-left:120px;">
+                <div class="col mb-3">
+                    <h1>Apertix.Official</h1>
+                    <p style="color: white;">&copy; 2024</p>
                 </div>
-            </section>
-            <!-- Section: Links -->
-        </footer>
-        <!-- Footer -->
+
+                <div class="col mb-3"></div>
+
+                <div class="col mb-3">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-white">Home</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-white">Features</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-white">Pricing</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-white">FAQs</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-white">About</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="col mb-3">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-white">Home</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-white">Features</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-white">Pricing</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-white">FAQs</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-white">About</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="col mb-3">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-white">Home</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-white">Features</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-white">Pricing</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-white">FAQs</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link p-0 text-white">About</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </footer>
 
     </body>
 </html>

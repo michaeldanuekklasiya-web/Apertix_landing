@@ -31,10 +31,47 @@
                 </ul>
 
                 <div class="col-md-3 text-end">
-                    <button type="button" class="btn btn-warning" style="border-radius: 25px; padding:10px; width:140px">Shop Now</button>
+                    <button type="button" class="btn btn-warning" style="border-radius: 25px; padding:10px; width:140px" data-bs-toggle="modal" data-bs-target="#loginModal">
+                        Shop Now
+                    </button>
                 </div>
+
+                <!-- Modal -->
+                <!-- Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true" style="background: none;">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content" style="border: none; background-color: transparent;">
+            <div class="modal-body" style="padding: 0;">
+                <!-- Konten dari login.blade.php akan dimuat di sini -->
+                <div id="loginContent">
+                    <!-- Konten dari login.blade.php akan dimuat di sini melalui AJAX -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
             </header>
         </div>
+
+        <script>
+            // Script untuk memuat konten login.blade.php ketika modal dibuka
+            const loginModal = document.getElementById('loginModal');
+            loginModal.addEventListener('show.bs.modal', function (event) {
+                const loginContent = document.getElementById('loginContent');
+                fetch('/signin')
+                    .then(response => response.text())
+                    .then(html => {
+                        loginContent.innerHTML = html; // Memasukkan HTML dari login.blade.php ke dalam modal
+                    })
+                    .catch(error => {
+                        console.error('Error loading the login form:', error);
+                    });
+            });
+        </script>
+
 
         <!-- Bootstrap JS and Popper.js -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>

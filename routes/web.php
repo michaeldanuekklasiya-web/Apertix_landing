@@ -24,3 +24,7 @@ Route::get('/products', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+
+Route::get('/signin', function () {
+    return view('modals/login');
+});

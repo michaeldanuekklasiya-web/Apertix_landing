@@ -259,7 +259,7 @@
                     <div class="col" data-aos="fade-right">
                         <div class="card shadow-sm">
                             <img
-                                src="/img/sec1 (3).png"
+                                src="/img/Image 11.png"
                                 alt=""
                                 class="card-img-top"
                                 style="padding: 20px; max-height: 300px; object-fit: contain;">
@@ -275,7 +275,7 @@
                     <div class="col" data-aos="fade-up">
                         <div class="card shadow-sm">
                             <img
-                                src="/img/sec1 (2).png"
+                                src="/img/Image 12.png"
                                 alt=""
                                 class="card-img-top"
                                 style="padding: 20px; max-height: 300px; object-fit: contain;">
@@ -292,7 +292,7 @@
                     <div class="col" data-aos="fade-left">
                         <div class="card shadow-sm">
                             <img
-                                src="/img/sec1 (1).png"
+                                src="/img/Image 13.png"
                                 alt=""
                                 class="card-img-top"
                                 style="padding: 20px; max-height: 300px; object-fit: contain;">
