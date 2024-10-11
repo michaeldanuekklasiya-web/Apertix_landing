@@ -24,7 +24,9 @@
             rel="stylesheet"
             integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
             crossorigin="anonymous">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
+
 
     </head>
     <body>
@@ -96,7 +98,7 @@
             <div class="container">
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                     {{-- card 1 --}}
-                    <div class="col">
+                    <div class="col" data-aos="fade-right">
                         <div class="card shadow-sm">
                             <img
                                 src="/img/sec1 (3).png"
@@ -113,7 +115,7 @@
                     </div>
 
                     {{-- Card 2 --}}
-                    <div class="col">
+                    <div class="col" data-aos="fade-up">
                         <div class="card shadow-sm">
                             <img
                                 src="/img/sec1 (2).png"
@@ -129,7 +131,7 @@
                     </div>
 
                     {{-- Card 3 --}}
-                    <div class="col">
+                    <div class="col" data-aos="fade-left">
                         <div class="card shadow-sm">
                             <img
                                 src="/img/sec1 (1).png"
@@ -148,7 +150,7 @@
         </div>
 
         {{-- Section 2 --}}
-        <section class="text-center section2">
+        <section class="text-center section2" data-aos="fade-up">
             <!-- Main Image -->
             <img src="img/section.png" alt="Main Image" style="width: 100%;">
             <div class="container">
@@ -185,9 +187,10 @@
                         width="700"
                         height="500"
                         loading="lazy"
-                        style="border-radius: 30px;">
+                        style="border-radius: 30px;"
+                        data-aos="fade-left">
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-right">
                     <h1 class="display-5 fw-bold lh-1 mb-3">Capture the Extraordinary with Apertix</h1>
                     <p class="lead">Immerse Yourself in the Art of Photography with Apertix - Your
                         Gateway to Visually Stunning Moments. Explore our wide range of high-quality
@@ -236,12 +239,12 @@
         {{-- SECTION 5 --}}
         <section class="container my-5">
             <div class="row align-items-center">
-                <div class="col-md-6 position-relative">
+                <div class="col-md-6 position-relative" data-aos="fade-right">
                     <div class="image-container">
                         <img src="img/Image 10.png" alt="Apertix Camera" class="img-fluid rounded" style="border-radius: 20px;">
                     </div>
                 </div>
-                <div class="col-md-6 text-container">
+                <div class="col-md-6 text-container" data-aos="fade-left">
                     <h2 class="font-weight-bold" style="margin-bottom: 80px; color:#F9D84F">Apertix Signature Series</h2>
                     <h3 class="font-weight-bold" style="font-size:50px;"><b>Elevate Your Shots</b></h3>
                     <p style="line-height: 30px;">
@@ -286,7 +289,7 @@
             <div class="container">
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                     {{-- card 1 --}}
-                    <div class="col">
+                    <div class="col" data-aos="fade-right">
                         <div class="card shadow-sm">
                             <img
                                 src="/img/sec1 (3).png"
@@ -302,7 +305,7 @@
                     </div>
 
                     {{-- Card 2 --}}
-                    <div class="col">
+                    <div class="col" data-aos="fade-up">
                         <div class="card shadow-sm">
                             <img
                                 src="/img/sec1 (2).png"
@@ -319,7 +322,7 @@
                     </div>
 
                     {{-- Card 3 --}}
-                    <div class="col">
+                    <div class="col" data-aos="fade-left">
                         <div class="card shadow-sm">
                             <img
                                 src="/img/sec1 (1).png"
@@ -370,98 +373,101 @@
         </div>
 
         <!-- Footer -->
-<footer class="text-center text-lg-start bg-body-tertiary" style="background-color: #3A9D5E; padding: 40px 0; color: white;">
+        <footer class="text-center text-lg-start bg-body-tertiary" style="background-color: #3A9D5E; padding: 40px 0; color: white;">
 
-    <!-- Section: Links -->
-    <section class="">
-        <div class="container text-center text-md-start mt-5">
-            <!-- Grid row -->
-            <div class="row mt-3">
-                <!-- Grid column -->
-                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                    <!-- Content -->
-                    <h6 class="text-uppercase fw-bold mb-4">
-                        Company name
-                    </h6>
-                    <p style="color: white;">
-                        Here you can use rows and columns to organize your footer content. Lorem ipsum
-                        dolor sit amet, consectetur adipisicing elit.
-                    </p>
+            <!-- Section: Links -->
+            <section class="">
+                <div class="container text-center text-md-start mt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Company name
+                            </h6>
+                            <p style="color: white;">
+                                Here you can use rows and columns to organize your footer content. Lorem ipsum
+                                dolor sit amet, consectetur adipisicing elit.
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Products
+                            </h6>
+                            <p style="color: white;>
+                                <a href="#!" class="text-reset">Angular</a>
+                            </p>
+                            <p style="color: white;>
+                                <a href="#!" class="text-reset">React</a>
+                            </p>
+                            <p style="color: white;>
+                                <a href="#!" class="text-reset">Vue</a>
+                            </p>
+                            <p style="color: white;>
+                                <a href="#!" class="text-reset">Laravel</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Products
+                            </h6>
+                            <p style="color: white;>
+                                <a href="#!" class="text-reset">Angular</a>
+                            </p>
+                            <p style="color: white;>
+                                <a href="#!" class="text-reset">React</a>
+                            </p>
+                            <p style="color: white;>
+                                <a href="#!" class="text-reset">Vue</a>
+                            </p>
+                            <p style="color: white;>
+                                <a href="#!" class="text-reset">Laravel</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Products
+                        </h6>
+                        <p style="color: white;>
+                            <a href="#!" class="text-reset">Angular</a>
+                        </p>
+                        <p style="color: white;>
+                            <a href="#!" class="text-reset">React</a>
+                        </p>
+                        <p style="color: white;>
+                            <a href="#!" class="text-reset">Vue</a>
+                        </p>
+                        <p style="color: white;>
+                            <a href="#!" class="text-reset">Laravel</a>
+                        </p>
+                    </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
                 </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                    <!-- Links -->
-                    <h6 class="text-uppercase fw-bold mb-4">
-                        Products
-                    </h6>
-                    <p style="color: white;>
-                        <a href="#!" class="text-reset">Angular</a>
-                    </p>
-                    <p style="color: white;>
-                        <a href="#!" class="text-reset">React</a>
-                    </p>
-                    <p style="color: white;>
-                        <a href="#!" class="text-reset">Vue</a>
-                    </p>
-                    <p style="color: white;>
-                        <a href="#!" class="text-reset">Laravel</a>
-                    </p>
-                </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                    <!-- Links -->
-                    <h6 class="text-uppercase fw-bold mb-4">
-                        Products
-                    </h6>
-                    <p style="color: white;>
-                        <a href="#!" class="text-reset">Angular</a>
-                    </p>
-                    <p style="color: white;>
-                        <a href="#!" class="text-reset">React</a>
-                    </p>
-                    <p style="color: white;>
-                        <a href="#!" class="text-reset">Vue</a>
-                    </p>
-                    <p style="color: white;>
-                        <a href="#!" class="text-reset">Laravel</a>
-                    </p>
-                </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-               <!-- Grid column -->
-               <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                <!-- Links -->
-                <h6 class="text-uppercase fw-bold mb-4">
-                    Products
-                </h6>
-                <p style="color: white;>
-                    <a href="#!" class="text-reset">Angular</a>
-                </p>
-                <p style="color: white;>
-                    <a href="#!" class="text-reset">React</a>
-                </p>
-                <p style="color: white;>
-                    <a href="#!" class="text-reset">Vue</a>
-                </p>
-                <p style="color: white;>
-                    <a href="#!" class="text-reset">Laravel</a>
-                </p>
-            </div>
-                <!-- Grid column -->
-            </div>
-            <!-- Grid row -->
-        </div>
-    </section>
-    <!-- Section: Links -->
-</footer>
-<!-- Footer -->
-
-
+            </section>
+            <!-- Section: Links -->
+        </footer>
+        <!-- Footer -->
     </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
